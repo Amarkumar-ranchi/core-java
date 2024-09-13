@@ -1,0 +1,6 @@
+class Test7{
+public static void main(String as[]){
+string ins="null";
+Systrm.out.println(ins);
+}
+}
