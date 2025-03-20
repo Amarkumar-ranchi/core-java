@@ -1,0 +1,14 @@
+class Lab621{
+public static void main(String as[]) throws
+Exception{
+if(as.length==1){
+Runtime rt=Runtime.getRuntime();
+String app=as[0]+".exe";
+Process p=rt.exec(app);
+}else{
+System.out.println("Specify the App name");
+} 
+//Process p1=rt.exec("notepad.exe");
+//Process p2=rt.exec("calc.exe");
+}
+}
