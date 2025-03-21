@@ -1,16 +1,13 @@
-class Test8{
-public static void main(String args[]){
-A ref=new B();
-ref.show(65);
-}
-}
 class A{
-static void show(int ab){
-System.out.println("A.show -> int");
+int x=99;
+class B{
+int y=88;
 }
 }
-class B extends A{
-static void show(int ab){
-System.out.println("B.show -> int");
+class Test8{
+public static void main(String[] args){
+A.B ref=new A().new B();
+System.out.println(ref.x);
+System.out.println(ref.y);
 }
-}
+} 

@@ -1,7 +1,10 @@
+class A{ }
+class A$B{
+int x=10;
+}
 class Test1{
-public static void main(String args[]){
-A ref=new A();
-System.out.println("Hello Guys");
+public static void main(String[] args){
+A$B ref=new A$B();
+System.out.println(ref.x);
 }
 }
-class A{ } 

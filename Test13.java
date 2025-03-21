@@ -1,10 +1,12 @@
+interface In1{
+class B{
+void show(){
+ System.out.println("OK");
+}
+}
+}
 class Test13{
-public static void main(String args[]){
-A.m1();
-}
-}
-abstract class A {
-abstract static void m1(){
-System.out.println("A-> m1");
+public static void main(String[] args){
+In1.B.show();
 }
 }

@@ -1,8 +1,16 @@
+class A{
+static int x=99;
+static class B{
+static int x=88;
+void show(){
+ System.out.println(x);
+ System.out.println(A.this.x);
+}
+}
+}
 class Test9{
-public static void main(String args[]){
-A ref=new B();
-System.out.println(ref.x);
+public static void main(String[] args){
+A.B ref=new A.B();
+ref.show();
 }
 }
-class A{ int x=99; }
-class B extends A{ String x="JLC"; } 

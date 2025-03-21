@@ -1,13 +1,14 @@
-class Test5{
-public static void main(String args[]){
-new A().show(65);
-}
-}
 class A{
-void show(short ab){
-System.out.println("show -> short");
+static void show(){
+B ref=new A().new B();
+System.out.println(ref.xy);
 }
-void show(char ch){
-System.out.println("show -> char");
+class B{
+ int xy=99;
+}
+}
+class Test5{
+public static void main(String[] args){
+new A().show();
 }
 }
