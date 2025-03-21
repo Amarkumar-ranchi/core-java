@@ -1,11 +1,12 @@
 class Test3{
 public static void main(String args[]){
-Student st1=new Student();
-Student st2=new Student();
-st1.sname="Sri";
-System.out.println(st1.sname+"\t"+st2.
-sname);
-} }
-class Student{
-static String sname; 
+Hello h=new Hello();
 }
+}
+class Hello{
+int a;
+Hello(){
+System.out.println("Hello Cons");
+return;
+}
+} 

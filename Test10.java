@@ -1,9 +1,12 @@
 class Test10{
-static String email=null;
-{
-email="sri@jlc.com";
-}
 public static void main(String args[]){
-System.out.println(email);
+Hello h=new Hello(12);
 }
-} 
+}
+class Hello{
+int a=10;
+Hello(int a){
+System.out.println(a);
+System.out.println(this.a);
+}
+}

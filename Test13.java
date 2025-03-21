@@ -1,11 +1,14 @@
 class Test13{
 public static void main(String args[]){
-Student st=null;
-System.out.println("Main");
+System.out.println(Hello.a);
 }
 }
-class Student{
+class Hello{
+static int a=10;
+Hello(){
+System.out.println("CONS");
+}
 static{
-System.out.println("St Block");
+System.out.println("SB");
 }
-} 
+}

@@ -1,10 +1,14 @@
 class Test5{
 public static void main(String args[]){
-Student st=null;
-st.name="Nivas";
-System.out.println(st.name);
+Hello h=new Hello(10);
+System.out.println(h.a);
 }
 }
-class Student{
-static String name;
+class Hello{
+int a;
+Hello(int a){
+System.out.println("Hello Cons");
+a=a;
+return;
+}
 } 

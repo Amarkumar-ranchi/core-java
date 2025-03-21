@@ -1,11 +1,11 @@
-class Test7{
+Class Test7{
 public static void main(String args[]){
-System.out.println(new
-Student().name="Sri");
-System.out.println(new
-Student().name);
+Hello h=new Hello(10);
+} }
+class Hello{
+int a;
+Hello(int a){
+this();
+System.out.println("Hello Cons");
 }
-}
-class Student{
-static String name;
-}
+} 
