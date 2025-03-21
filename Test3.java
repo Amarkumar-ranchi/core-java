@@ -1,14 +1,8 @@
-class Test3{
-public static void main(String args[]){
-byte by=123;
-new A().show(by);
+public class Test3 {
+public static void main(String[] args) {
+final String s1 = "JLC";
+final String s2 = "INDIA";
+String s3="JLCINDIA";
+System.out.println(s1+s2 == s3);
 }
-}
-class A{
-void show(int ab){
-System.out.println("show -> int");
-}
-void show(char ch){
-System.out.println("show -> char");
-}
-}
+} 

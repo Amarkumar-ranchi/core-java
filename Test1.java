@@ -1,10 +1,7 @@
- 
- public class Test1 {
+public class Test1 {
 public static void main(String[] args) {
-Student st = new Student();
-Class cl =st.getClass();
-String name=cl.getName();
-System.out.println(name);
+String s1 = "JLC";
+String s2 = new String("JLC");
+System.out.println(s1 == s2);
 }
 }
-class Student{}

@@ -1,11 +1,6 @@
 public class Test8 {
 public static void main(String[] args) {
-Student st=new Student();
-System.out.println(st);
+StringBuilder sb1 = new StringBuilder(879898767);
+System.out.println(sb1.capacity());
 }
-}
-class Student{
-public int hashCode() {
-return 15;
-}
-}
+} 
