@@ -1,13 +1,10 @@
 class Test13{
 public static void main(String args[]){
-new B();
-} }
-class A{
-static{
-System.out.println("A S.B.");
-} }
-class B extends A{
-static{
-System.out.println("B S.B.");
+A.m1();
+}
+}
+abstract class A {
+abstract static void m1(){
+System.out.println("A-> m1");
 }
 }

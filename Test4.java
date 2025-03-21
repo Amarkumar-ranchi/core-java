@@ -1,11 +1,8 @@
 class Test4{
 public static void main(String args[]){
-B ref=new B();
-System.out.println(ref.y);
-} }
-class A{
-int x=99;
+A ref=new B();
+System.out.println("Hello Guys");
 }
-class B {
-int y=88;
 }
+class A{ }
+class B{ }

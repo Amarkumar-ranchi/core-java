@@ -1,10 +1,9 @@
-class Hello{
-private int x;
-}
-class Hai extends Hello{
-private int x;
-public static void main(String[] args){
-Hai h=new Hai();
-System.out.println(h.x);
+class Test2{
+public static void main(String args[]){
+A ref=new C();
+System.out.println("Hello Guys");
 }
 }
+class A{ }
+class B extends A{ }
+class C extends B{ } 

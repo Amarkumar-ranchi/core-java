@@ -1,17 +1,13 @@
 class Test5{
 public static void main(String args[]){
-B ref=new B();
-System.out.println(ref.x);
+new A().show(65);
 }
 }
 class A{
-int x=99;
+void show(short ab){
+System.out.println("show -> short");
 }
-class B {
-int y=88;
+void show(char ch){
+System.out.println("show -> char");
 }
-/* error: cannot find symbol
-System.out.println(ref.x);
-                      
-  symbol:   variable x
-  location: variable ref of type B*/
+}

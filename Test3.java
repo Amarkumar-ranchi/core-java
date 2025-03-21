@@ -1,15 +1,14 @@
-class Hello{
-private int x;
-Hello(int x){
-this.x=x;
-}
-int getX(){
-return this.x;
+class Test3{
+public static void main(String args[]){
+byte by=123;
+new A().show(by);
 }
 }
-class Test2{
-public static void main(String[] args){
-Hello h=new Hello(99);
-System.out.println(h.getX());
+class A{
+void show(int ab){
+System.out.println("show -> int");
+}
+void show(char ch){
+System.out.println("show -> char");
 }
 }

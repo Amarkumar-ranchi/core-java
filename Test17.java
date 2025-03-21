@@ -1,11 +1,17 @@
 class Test17{
 public static void main(String args[]){
-B.show();
+new B().m1();
+System.out.println(C.x);
 }
 }
-class A{
-static void show(){
-System.out.println("A -> show ()");
+abstract class A {
+static int x=90;
+void m1(){ }
+}
+class B extends A{
+B(){ x=80; }
+void m1(){
+System.out.println("B-> m1");
 }
 }
-class B extends A{ }
+class C extends A{ } 

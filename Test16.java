@@ -1,15 +1,19 @@
 class Test16{
 public static void main(String args[]){
-new B().x=101;
-} }
-class A{
-static int x=99;
-{
-System.out.println("A I.B.");
+System.out.println(new B().x);
+}
+}
+abstract class A {
+int x=99;
+A(){
+System.out.println("A-> D.C");
+}
+static{
+System.out.println("A-> S.B");
 }
 }
 class B extends A{
-{
-System.out.println("B I.B.");
+static{
+System.out.println("B-> S.B");
 }
 }

@@ -1,11 +1,13 @@
 class Test11{
 public static void main(String args[]){
-D ref=new D();
+A ref=new B();
+ref.x=88;
 System.out.println(ref.x);
-} }
-class A{ int x=99; }
-class B extends A{ }
-class C extends B{
-String x="JLC";
 }
-class D extends B{ }
+}
+class A{
+ int x=99;
+}
+class B extends A{
+ String x="JLC";
+}

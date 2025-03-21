@@ -1,10 +1,20 @@
 class Test23{
 public static void main(String args[]){
-C ref=new C();
-ref.x=98;
-System.out.println(ref.x);
+Inter1 in1=new A();
+in1.m1();
+Inter2 in2=new A();
+in2.m2();
+} }
+interface Inter1{
+void m1();
 }
+interface Inter2{
+void m2();
 }
-class A{ int x=99; }
-class B extends A{ String x="JLC"; }
-class C extends B{ float x=11.1F; }
+class A implements Inter1,Inter2{
+public void m1(){
+System.out.println("A-> m1");
+}
+public void m2(){
+System.out.println("A-> m2");
+} }

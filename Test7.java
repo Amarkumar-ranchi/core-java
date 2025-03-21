@@ -1,14 +1,15 @@
 class Test7{
 public static void main(String args[]){
-B ref=new B();
-ref.x=101;
-System.out.println(ref.ref.x);
+A ref=new B();
+ref.show(65);
 }
 }
 class A{
-int x=99;
+void show(int ab){
+System.out.println("A.show -> int");
+}
 }
 class B extends A{
-int y=88;
-A ref=new A();
-}
+void show(int ab){
+System.out.println("B.show -> int");
+} } 

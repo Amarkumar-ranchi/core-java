@@ -1,13 +1,14 @@
 class Test19{
 public static void main(String args[]){
-B ref=new B();
-ref.show();
+Inter1 in=new A();
+in.m1();
 }
 }
-class A{ int x=10; }
-class B extends A{
-void show(){
-A ref=new A();
-System.out.println(ref.x);
+interface Inter1{
+void m1();
+}
+class A implements Inter1{
+public void m1(){
+System.out.println("A-> m1");
 }
 }

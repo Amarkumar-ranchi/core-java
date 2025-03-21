@@ -1,17 +1,14 @@
 class Test14{
 public static void main(String args[]){
-B ref=null;
-ref.x=101;
+A ref=new B();
+ref.m1();
 }
 }
-class A{
-static int x=99;
-static{
-System.out.println("A S.B.");
-}
+abstract class A {
+public abstract void m1();
 }
 class B extends A{
-static{
-System.out.println("B S.B.");
+void m1(){
+System.out.println("B-> m1");
 }
-} 
+}
