@@ -1,10 +1,9 @@
 class Test8{
-public static void main(String[] args) {
-byte by=10;
-switch(by){
-default: System.out.println("DEF");
-case 10: System.out.println("TEN");
-case 0: System.out.println("ZERO");
-}
+public static void main(String
+args[]){
+int arr[]=new int[1];
+arr[0]=123;
+arr=new int[4];
+System.out.println(arr[0]);
 }
 }

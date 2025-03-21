@@ -1,15 +1,9 @@
 class Test9{
-public static void main(String[] args) {
-byte by=10;
-switch(by){
-default: System.out.println("DEF");
-case 10: System.out.println("TEN");
-case 128:
-System.out.println("VALUE");
+static int arr[]=new
+int[]{10,20,30,40};
+public static void main(String
+args[]){
+int length=arr.length;
+System.out.println(arr[--length]);
 }
 }
-}
-
-
- /*error: incompatible types: possible lossy conversion from int to byte
-case 128:*/

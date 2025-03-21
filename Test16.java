@@ -1,12 +1,8 @@
 class Test16{
-public static void main(String as[]){
-for(int i=1;i<2;i++){
-int a=99;
-System.out.println(a);
+public static void main(String
+args[]){
+int arr[][][]=new int[5][][];
+int len=arr.length;
+System.out.println(len);
 }
-System.out.println(a);
 } 
-}
-
- /*error: cannot find symbol
-System.out.println(a);*/

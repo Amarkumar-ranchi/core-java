@@ -1,11 +1,8 @@
 class Test5{
-public static void main(String[]args){
-int a=0;
-if(a++==0)
-System.out.println(a);
-else if(a++==1)
-System.out.println(a);
-else if(a++==2)
-System.out.println(a);
+public static void main(String
+args[]){
+int x=257;
+int arr[]=new int[(byte)x];
+System.out.println(arr.length);
 }
 }

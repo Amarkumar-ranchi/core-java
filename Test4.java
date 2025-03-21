@@ -1,16 +1,8 @@
 class Test4{
-public static void main(String[]args){
-int a=10;
-if(a==10)
-System.out.println("IF");
-System.out.println("A is 10");
-else
-System.out.println("ELSE");
-System.out.println("A is not 10");
+static char ch;
+public static void main(String
+args[]){
+int arr[]=new int[ch];
+System.out.println(arr[0]);
 }
 }
-
-
-
-/* error: 'else' without 'if'
-else*/

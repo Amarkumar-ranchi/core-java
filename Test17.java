@@ -1,10 +1,10 @@
 class Test17{
-public static void main(String as[]){
-int a=0;
-for(int i=1;a<2;i++){
-System.out.println(a);
-a++;
+public static void main(String
+args[]){
+int arr[][][]=new int[][5][5];
+int len=arr.length;
+System.out.println(len);
 }
-System.out.println(a);
-}
-}
+} 
+/*output:- error: ']' expected
+int arr[][][]=new int[][5][5];*/

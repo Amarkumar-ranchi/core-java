@@ -1,14 +1,11 @@
 class Test2{
-public static void main(String[]args){
-int a=10;
-if(a=12){
-System.out.println("IF");
-}else{
-System.out.println("ELSE");
+static boolean arr[]=new
+boolean[1];
+public static void main(String
+args[]){
+System.out.println(arr[0]);
 }
-}
-}
+} 
 
 
- /*incompatible types: int cannot be converted to boolean
-if(a=12)*/
+/*output:-false*/

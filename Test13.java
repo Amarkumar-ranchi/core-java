@@ -1,12 +1,14 @@
 class Test13{
-public static void main(String[] args) {
-for( ; ; ){
- System.out.println("JLC");
-}
-System.out.println("OK");
+public static void main(String
+args[]){
+int arr[]=new int[][5];
+int len=arr.length;
+System.out.println(len);
 }
 }
 
-
- /*error: unreachable statement
-System.out.println("OK");*/
+ /*error: ']' expected
+int arr[]=new int[][5];
+                    ^
+Test13.java:4: error: ';' expected
+int arr[]=new int[][5];*/
