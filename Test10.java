@@ -1,16 +1,13 @@
 class Test10{
-public static void main(String[] args) {
- if (m1() && m2())
- System.out.println("IF");
- else
- System.out.println("ELSE");
+public static void main(String args[]){
+D ref=new D();
+System.out.println(ref.x);
+} }
+class A{
+int x=99;
 }
-static boolean m1() {
- System.out.println("m1");
- return true;
+class B extends A{ }
+class C extends B{
+String x="JLC";
 }
-static boolean m2() {
-System.out.println("m2");
- return false;
-}
-}
+class D extends C{ }

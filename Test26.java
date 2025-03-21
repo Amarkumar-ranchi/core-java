@@ -1,11 +1,14 @@
-class Test26 {
-public static void main(String[] args) {
- show((String)null);
+class Test26{
+public static void main(String args[]){
+B ref=new B();
 }
-static void show(String str) {
- System.out.println("String");
 }
-static void show(Test26 t) {
- System.out.println("Test");
+class A{
+A(int a){
+System.out.println("A Par. C");
+} }
+class B extends A{
+B(){
+System.out.println("B Def. C");
 }
 }

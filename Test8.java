@@ -1,12 +1,12 @@
-class Test8 {
-public static void main(String[] args) {
- for (int i = 0; Hello.process(i); i++)
- System.out.println(i);
-} }
-class Hello {
-static boolean process(int x) {
- if (x < 2)
- return true;
-else
- return false;
-} }
+class Test8{
+public static void main(String args[]){
+D ref=new D();
+System.out.println(ref.x);
+}
+}
+class A{
+int x=99;
+}
+class B extends A{ }
+class C extends B{ }
+class D extends B{ } 

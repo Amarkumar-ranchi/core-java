@@ -1,11 +1,12 @@
-class Test24 {
-public static void main(String[] args) {
- show(null);
-}
-static void show(Object obj) {
- System.out.println("Object");
-}
-static void show(String str) {
- System.out.println("String");
-}
-}
+class Test24{
+public static void main(String args[]){
+C ref=new C();
+ref.show();
+} }
+class A{ int x=99; }
+class B extends A{ String x="JLC"; }
+class C extends B{
+float x=11.1F;
+void show(){
+System.out.println(super.x);
+} }

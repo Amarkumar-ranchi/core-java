@@ -1,8 +1,5 @@
-public class Test1 {
-public static void main(String[] args) {
- System.out.println("main");
- show();
+class Test1 extends Object{
+public static void main(String args[]){
+System.out.println("Main ");
 }
-void show(){
- System.out.println("show");
-} } 
+}

@@ -1,16 +1,14 @@
-class Test7 {
-public static void main(String[] args) {
- if (Hello.process(0))
- System.out.println("IF");
- else
- System.out.println("ELSE");
+class Test7{
+public static void main(String args[]){
+B ref=new B();
+ref.x=101;
+System.out.println(ref.ref.x);
 }
 }
-class Hello {
-static boolean process(int x) {
-if (x >= 0)
- return true;
-else
- return false;
+class A{
+int x=99;
 }
-} 
+class B extends A{
+int y=88;
+A ref=new A();
+}

@@ -1,12 +1,11 @@
-class Test4 {
- public static void main(String[] args) {
- System.out.println("main");
- Hello h=new Hello();
- System.out.println(h.show());
+class Test4{
+public static void main(String args[]){
+B ref=new B();
+System.out.println(ref.y);
+} }
+class A{
+int x=99;
 }
-}
-class Hello {
- String show() {
- return "show";
- }
+class B {
+int y=88;
 }

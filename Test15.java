@@ -1,9 +1,17 @@
-class Test15 {
-public static void main(String[] args) {
- show(123.45);
+class Test15{
+public static void main(String args[]){
+B ref=null;
+ref.x=101;
 }
-static void show(int ab) {
- System.out.println("show");
- System.out.println(ab);
+}
+class A{
+static int x=99;
+{
+System.out.println("A I.B.");
+}
+}
+class B extends A{
+{
+System.out.println("B I.B.");
 }
 } 

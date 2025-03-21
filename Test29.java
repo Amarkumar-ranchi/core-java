@@ -1,11 +1,13 @@
-class Test29 {
-public static void main(String[] args) {
- show((Object)null);
-}
-static void show(String str) {
- System.out.println("String");
-}
-static void show(Test29 t) {
- System.out.println("Test");
+class Test29{
+public static void main(String args[]){
+A ref=new A();
 }
 }
+class A extends Object{
+A(){
+super(10);
+}
+}
+class Object{
+Object(int a){ }
+} 

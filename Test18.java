@@ -1,9 +1,13 @@
-class Test18 {
-public static void main(String[] args) {
- show((short)0);
+class Test18{
+public static void main(String args[]){
+B ref=new B();
+ref.show();
+} }
+class A{
+int x=10;
 }
-static void show(short sh) {
- System.out.println("show");
- System.out.println(sh);
-}
-} 
+class B extends A{
+boolean x=true;
+void show(){
+System.out.println(x);
+} }

@@ -1,9 +1,13 @@
-class Test13 {
- public static void main(String[] args) {
- System.out.println(new Test());
+class Test13{
+public static void main(String args[]){
+new B();
+} }
+class A{
+static{
+System.out.println("A S.B.");
+} }
+class B extends A{
+static{
+System.out.println("B S.B.");
 }
-static int Test() {
-System.out.println("TEST");
- return 10;
 }
-} 

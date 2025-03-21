@@ -1,16 +1,14 @@
-class Test12 {
-public static void main(String[] args) {
- if (m2() & m1())
- System.out.println("IF");
- else
- System.out.println("ELSE");
+class Test12{
+public static void main(String args[]){
+new B();
 }
-static boolean m1() {
- System.out.println("m1");
- return true;
 }
-static boolean m2() {
-System.out.println("m2");
- return false;
+class A{
+static{
+System.out.println("A S.B.");
+} }
+class B{
+static{
+System.out.println("B S.B.");
 }
-} 
+}

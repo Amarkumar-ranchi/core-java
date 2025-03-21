@@ -1,12 +1,13 @@
-public class Test30 {
-static int a;
-public static void main(String[] args) {
- int a = 10;
- show(a);
- System.out.println(Test.a + "\t" + a);
+class Test30{
+public static void main(String args[]){
+B ref=new B();
+ref.x=90;
+System.out.println(ref.x);
 }
-static void show(int a) {
- a = a + 20;
- Test.a = a;
 }
+class A{
+int x;
+}
+class B extends A{
+String x;
 } 
