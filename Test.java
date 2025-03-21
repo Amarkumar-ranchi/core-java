@@ -1,11 +1,10 @@
-class Test1{
-public static void main(String as []){
-int enum=9;
-System.out.println(enum);
+ 
+ public class Test {
+public static void main(String[] args) {
+Student st = new Student();
+Class cl =st.getClass();
+String name=cl.getName();
+System.out.println(name);
 }
 }
-
-
-
-/* error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
-int enum=9;*/
+class Student{}

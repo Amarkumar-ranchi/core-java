@@ -1,12 +1,8 @@
-interface In1{
-class B{
-static void show(){
- System.out.println("OK");
+public class Test12 {
+public static void main(String[] args) {
+Student s1=new Student();
+Student s2=new Student();
+System.out.println(s1.equals(s2));
 }
 }
-}
-class Test12{
-public static void main(String[] args){
-In1.B.show();
-}
-}
+class Student{} 

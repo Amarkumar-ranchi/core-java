@@ -1,13 +1,11 @@
-class A{
-int x=99;
-class B{
-int y=88;
+public class Test7 {
+public static void main(String[] args) {
+Student st=new Student();
+System.out.println(st);
 }
-}
-class Test7{
-public static void main(String[] args){
-A ref=new A();
-System.out.println(ref.x);
-System.out.println(ref.y);
+ }
+class Student{
+public String toString() {
+ return "JLCStudent";
 }
 }

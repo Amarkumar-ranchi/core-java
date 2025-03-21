@@ -1,14 +1,6 @@
-class A{
-static void show(){
-B ref=new A().new B();
-System.out.println(ref.xy);
-}
-class B{
- int xy=99;
-}
-}
-class Test5{
-public static void main(String[] args){
-new A().show();
+public class Test5 {
+public static void main(String[] args) {
+String str="Hello";
+System.out.println(str);
 }
 }

@@ -1,14 +1,11 @@
-class A{
-static void show(){
-B ref=new B();
-System.out.println(ref.xy);
+public class Test4 {
+public static void main(String[] args) {
+Student st = new Student();
+System.out.println(st.hashCode());
 }
-class B{
- int xy=99;
- }
 }
-class Test4{
-public static void main(String[] args){
-new A().show();
+class Student{
+public int hashCode() {
+ return 7825414;
 }
 }

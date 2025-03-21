@@ -1,16 +1,7 @@
-class A{
-static int x=99;
-static class B{
-static int x=88;
-void show(){
- System.out.println(x);
- System.out.println(A.x);
-}
-}
-}
-class Test10{
-public static void main(String[] args){
-A.B ref=new A.B();
-ref.show();
+public class Test10 {
+public static void main(String[] args) {
+String s1=new String("JLC");
+String s2=new String("JLC");
+System.out.println(s1.equals(s2));
 }
 }

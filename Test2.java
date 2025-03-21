@@ -1,9 +1,7 @@
-class Test2{
-public static void main(String args[]){
-A ref=new C();
-System.out.println("Hello Guys");
+public class Test2 {
+public static void main(String[] args) {
+Student st = new Student();
+System.out.println(st.hashCode());
 }
 }
-class A{ }
-class B extends A{ }
-class C extends B{ } 
+class Student{} 

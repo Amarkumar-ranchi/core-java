@@ -1,14 +1,15 @@
-class Test14{
-public static void main(String args[]){
-A ref=new B();
-ref.m1();
+public class Test14 {
+public static void main(String[] args) {
+Student s1 = new Student("Sri");
+Student s2 = new Student("Sri");
+System.out.println(s1.equals(s2));
 }
 }
-abstract class A {
-public abstract void m1();
+class Student {
+String name;
+Student(String name) {
+this.name=name;
 }
-class B extends A{
-void m1(){
-System.out.println("B-> m1");
-}
-}
+public boolean equals(Student st) {
+return this.name ==st.name;
+} }

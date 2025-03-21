@@ -1,17 +1,18 @@
-class Test17{
-public static void main(String args[]){
-new B().m1();
-System.out.println(C.x);
+public class Test17 {
+public static void main(String[] args) {
+String nm1=new String("Sri");
+String nm2=new String("Sri");
+Student s1 = new Student(nm1);
+Student s2 = new Student(nm2);
+System.out.println(s1.equals(s2));
 }
 }
-abstract class A {
-static int x=90;
-void m1(){ }
+class Student {
+String name;
+Student(String name) {
+this.name=name;
 }
-class B extends A{
-B(){ x=80; }
-void m1(){
-System.out.println("B-> m1");
+public boolean equals(Student st) {
+return this.name.equals(st.name);
 }
 }
-class C extends A{ } 
