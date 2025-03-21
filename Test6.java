@@ -1,6 +1,6 @@
-public class Test6 {
-public static void main(String[] args) {
-String str = "null";
-System.out.println(str.length());
+class Test6{
+public static void main(String[]args){
+char ch='A';
+System.out.println(ch+1);
 }
 }

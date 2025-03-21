@@ -1,8 +1,6 @@
-public class Test2 {
-public static void main(String[] args) {
-String s1 = "JLC";
-String s2 = "INDIA";
-String s3="JLCINDIA";
-System.out.println(s1+s2 == s3);
+class Test2{
+public static void main(String str[]){
+Boolean b=0;
+System.out.println('0');
 }
 }

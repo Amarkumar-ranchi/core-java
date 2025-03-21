@@ -1,8 +1,6 @@
-public class Test12 {
-public static void main(String[] args) {
-Student s1=new Student();
-Student s2=new Student();
-System.out.println(s1.equals(s2));
+class Test12{
+public static void main(String str[]){
+String data="Value is \61";
+System.out.println(data);
 }
 }
-class Student{} 

@@ -1,6 +1,6 @@
-public class Test4 {
-public static void main(String[] args) {
-String str = null;
-System.out.println(str.isEmpty());
+class Test4{
+public static void main(String [] args){
+char ch='/';
+System.out.println(ch);
 }
 }
