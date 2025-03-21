@@ -1,10 +1,8 @@
- 
- public class Test {
-public static void main(String[] args) {
-Student st = new Student();
-Class cl =st.getClass();
-String name=cl.getName();
-System.out.println(name);
+class Test1{
+public static void main(String str[]){
+float f1=11;
+float f2=11.f;
+f2=f1+f2;
+System.out.println(f2);
 }
 }
-class Student{}
