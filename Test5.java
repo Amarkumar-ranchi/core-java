@@ -1,10 +1,6 @@
 class Test5{
-public static void main(String[]arg){
-char ch='\';
-System.out.println(ch);
+public static void main(String []args){
+int a=7;
+System.out.println(a);
 }
 }
-
-
- /*error: unclosed character literal
-char ch='\';*/

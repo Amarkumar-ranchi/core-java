@@ -1,8 +1,8 @@
-public class Test3 {
-public static void main(String[] args) {
-final String s1 = "JLC";
-final String s2 = "INDIA";
-String s3="JLCINDIA";
-System.out.println(s1+s2 == s3);
+class Test3{
+public static void main(String [] args){
+float f=12e-1F;
+final long l=12L;
+f=f+l;
+SYstem.out.println(f);
 }
-} 
+}

@@ -1,6 +1,6 @@
 class Test13{
 public static void main(String str[]){
-String dir="D:/java/Hello.java";
-System.out.println(dir);
+double d=0xE.p0;
+System.out.println(d);
 }
 }

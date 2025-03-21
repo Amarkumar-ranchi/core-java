@@ -1,7 +1,6 @@
 class Test10{
-static String name="null";
-public static void main(String str[]){
-System.out.println(name);
-System.out.println(name.length());
+public static void main(String jlc []){
+int ab='\u0037';
+System.out.println(ab);
 }
 }

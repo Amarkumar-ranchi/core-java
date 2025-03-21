@@ -1,12 +1,6 @@
-class Test9{
-static String name;
-public static void main(String str []){
-System.out.println(name);
-System.out.println(name.length());
+ class Test9{
+public static void main(String jlc []){
+int ab=\u0037;
+System.out.println(ab);
 }
 }
-
-
-/*null
-Exception in thread "main" java.lang.NullPointerException
-        at Test9.main(Test9.java:5)*/

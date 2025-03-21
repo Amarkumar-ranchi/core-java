@@ -1,6 +1,9 @@
-class Test2{
-public static void main(String str[]){
-Boolean b=0;
-System.out.println('0');
+class Test2 {
+public static void main(String []args){
+byte b=016;
+short s =0X16;
+char c='1';
+int a=b+s+c;
+System.out.println(a);
 }
 }

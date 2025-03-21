@@ -1,6 +1,6 @@
 class Test12{
 public static void main(String str[]){
-String data="Value is \61";
-System.out.println(data);
+double d=061.0;
+System.out.println(d);
 }
 }
