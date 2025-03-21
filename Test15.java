@@ -1,12 +1,9 @@
-class Test15{
-public static void main(String args[]){
-new Student();
-new Student();
-System.out.println("Main");
+class Test15 {
+public static void main(String[] args) {
+ show(123.45);
 }
-}
-class Student{
-{
-System.out.println("Block");
+static void show(int ab) {
+ System.out.println("show");
+ System.out.println(ab);
 }
 } 

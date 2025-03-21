@@ -1,15 +1,9 @@
-class Test34{
-public static void main(String args[]){
-System.out.println(Hello.a);
-}
-}
-class Hello{
-static int a=10;
-static Hello h=new Hello();
-{
-System.out.println("IB");
-}
-static{
-System.out.println("SB");
+class Test34 {
+static int count = 0;
+public static void main(String… args) {
+System.out.println("Main");
+count++;
+if (count ==1)
+ main();
 }
 }

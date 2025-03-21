@@ -1,10 +1,11 @@
-class Test29{
-static int ab=90;
-static{
-int ab=10;
-System.out.println(ab);
+class Test29 {
+public static void main(String[] args) {
+ show((Object)null);
 }
-public static void main(String args[]){
-System.out.println(ab);
+static void show(String str) {
+ System.out.println("String");
 }
-} 
+static void show(Test29 t) {
+ System.out.println("Test");
+}
+}

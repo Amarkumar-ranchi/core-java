@@ -1,11 +1,10 @@
-class Test6{
-public static void main(String args[]){
-Hello h=new Hello();
+class Test6 {
+ public static void main(String[] args) {
+ System.out.println("main");
+ Hello h=new Hello();
+ System.out.println(h.show());
 }
 }
-class Hello{
-int a;
-Hello(int a){
-System.out.println("Hello Cons");
-}
-}
+class Hello {
+ void show() { }
+} 

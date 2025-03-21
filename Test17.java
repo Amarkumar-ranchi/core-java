@@ -1,8 +1,9 @@
-class Test17{
-static{
-System.out.println("BLOCK1");
+class Test17 {
+public static void main(String[] args) {
+ show(0);
 }
-public static void main(String args[]){
-System.out.println("Main");
+static void show(short sh) {
+ System.out.println("show");
+ System.out.println(sh);
 }
-} 
+}

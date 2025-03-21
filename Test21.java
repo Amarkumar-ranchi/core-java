@@ -1,9 +1,11 @@
-class Test21{
-public static void main(String args[]){
-Student st=new Student();
-System.out.println(st.fee);
+class Test21 {
+public static void main(String[] args) {
+ show('A');
 }
+static void show(int a) {
+ System.out.println("int");
 }
-class Student{
-final float fee;
+static void show(char a) {
+ System.out.println("char");
+}
 } 

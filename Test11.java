@@ -1,11 +1,15 @@
-class Test11{
-public static void main(String args[]){
-Hello h=new Hello(12);
-System.out.println("OK");
+class Test11 {
+public static void main(String[] args) {
+ if (m2() && m1())
+ System.out.println("IF");
+ else
+ System.out.println("ELSE");
 }
+static boolean m1() {
+ System.out.println("m1");
+ return true;
 }
-class Hello{
-Hello(int a){
-System.out.println(this.a);
-}
-}
+static boolean m2() {
+System.out.println("m2");
+ return false;
+}}

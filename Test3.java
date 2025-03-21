@@ -1,12 +1,9 @@
-class Test3{
-public static void main(String args[]){
-Hello h=new Hello();
+class Test3 {
+public static void main(String[] args) {
+ System.out.println("main");
+ show();
+}
+static void show(){
+ System.out.println("show");
 }
 }
-class Hello{
-int a;
-Hello(){
-System.out.println("Hello Cons");
-return;
-}
-} 

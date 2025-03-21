@@ -1,11 +1,8 @@
-class Test2{
-public static void main(String args[]){
-Hello h=new Hello();
+class Test2 {
+public static void main(String[] args) {
+ System.out.println("main");
+ new Test2().show();
 }
-}
-class Hello{
-int a;
-void Hello(){
-System.out.println("Hello Cons");
-}
-}
+void show(){
+ System.out.println("show");
+} }

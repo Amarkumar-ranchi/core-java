@@ -1,14 +1,12 @@
-class Test4{
-public static void main(String args[]){
-Hello h=new Hello(10);
-System.out.println(h.a);
+class Test4 {
+ public static void main(String[] args) {
+ System.out.println("main");
+ Hello h=new Hello();
+ System.out.println(h.show());
 }
 }
-class Hello{
-int a;
-Hello(int a){
-System.out.println("Hello Cons");
-this.a=a;
-return;
-}
+class Hello {
+ String show() {
+ return "show";
+ }
 }

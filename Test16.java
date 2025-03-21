@@ -1,8 +1,9 @@
-class Test16{
-{
-System.out.println("BLOCK1");
+class Test16 {
+public static void main(String[] args) {
+ show((char)-1);
 }
-public static void main(String args[]){
-System.out.println("Main");
+static void show(int ab) {
+ System.out.println("show");
+ System.out.println(ab);
 }
 }

@@ -1,11 +1,16 @@
-Class Test7{
-public static void main(String args[]){
-Hello h=new Hello(10);
-} }
-class Hello{
-int a;
-Hello(int a){
-this();
-System.out.println("Hello Cons");
+class Test7 {
+public static void main(String[] args) {
+ if (Hello.process(0))
+ System.out.println("IF");
+ else
+ System.out.println("ELSE");
+}
+}
+class Hello {
+static boolean process(int x) {
+if (x >= 0)
+ return true;
+else
+ return false;
 }
 } 

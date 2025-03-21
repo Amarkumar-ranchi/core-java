@@ -1,10 +1,5 @@
-class Test31{
-static int ab=90;
-{
-ab=10;
-System.out.println(ab);
+class Test31 {
+public static void main(String... args) {
+ System.out.println("Main");
 }
-public static void main(String args[]){
-System.out.println(ab);
 }
-} 

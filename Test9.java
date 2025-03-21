@@ -1,14 +1,14 @@
-class Test9{
-public static void main(String args[]){
-Hello h=new Hello();
-h.Hello(10);
-} }
-class Hello{
-int a;
-Hello(){
-System.out.println("Hello Cons");
+class Test9 {
+public static void main(String[] args) {
+ if (m1() || m2())
+ System.out.println("IF");
+ else System.out.println("ELSE");
 }
-void Hello(int a){
-System.out.println("void Hello Cons");
+static boolean m1() {
+ System.out.println("m1");
+ return true;
 }
-}
+static boolean m2() {
+System.out.println("m2");
+ return false;
+}} 

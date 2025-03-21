@@ -1,10 +1,12 @@
-class Test30{
-static int ab=90;
-static{
-ab=10;
-System.out.println(ab);
+public class Test30 {
+static int a;
+public static void main(String[] args) {
+ int a = 10;
+ show(a);
+ System.out.println(Test.a + "\t" + a);
 }
-public static void main(String args[]){
-System.out.println(ab);
+static void show(int a) {
+ a = a + 20;
+ Test.a = a;
 }
-}
+} 

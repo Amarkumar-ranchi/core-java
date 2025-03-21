@@ -1,11 +1,8 @@
-class Test33{
-public static void main(String args[]){
-Hello h=new Hello();
-h.show();
-} }
-class Hello{
-int a;
-void show(){
-System.out.println(Hello.this.a);
+class Test33 {
+static int count = 0;
+public static void main(String… args) {
+System.out.println("Main");
+if (count > 0)
+ main();
 }
 }
