@@ -1,6 +1,10 @@
 class Test17{
-static char ch;
-public static void main(String arg[]){
-System.out.println(ch=='0');
+public static void main(String as[]){
+int a=0;
+for(int i=1;a<2;i++){
+System.out.println(a);
+a++;
+}
+System.out.println(a);
 }
 }

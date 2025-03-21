@@ -1,5 +1,13 @@
 class Test12{
-public static void main(String arg[]){
-System.out.println(-0.9/-0);
-} 
+public static void main(String[] args) {
+byte by=12;
+switch(by)
+case 10: System.out.println("TEN");
 }
+}
+
+
+/*error: '{' expected
+switch(by)
+error: reached end of file while parsing
+}*/

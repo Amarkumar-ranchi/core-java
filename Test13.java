@@ -1,6 +1,12 @@
 class Test13{
-static String str="null";
-public static void main(String arg[]){
-System.out.println(str==null);
+public static void main(String[] args) {
+for( ; ; ){
+ System.out.println("JLC");
+}
+System.out.println("OK");
 }
 }
+
+
+ /*error: unreachable statement
+System.out.println("OK");*/

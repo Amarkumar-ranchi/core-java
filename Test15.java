@@ -1,5 +1,7 @@
 class Test15{
-public static void main(String arg[]){
-System.out.println(-0.9/-0.0);
+public static void main(String[] args) {
+int i=10;
+while(i++<=20);
+System.out.println(i);
 }
 }

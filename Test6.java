@@ -1,5 +1,11 @@
 class Test6{
-public static void main(String as[]){
-System.out.println(2147483647+1L);
+public static void main(String[]args){
+int a=0;
+if(++a==0)
+System.out.println(a);
+else if(++a==1)
+System.out.println(a);
+else if(++a==2)
+System.out.println(a);
 }
 }

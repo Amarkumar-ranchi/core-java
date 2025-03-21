@@ -1,5 +1,10 @@
 class Test20{
-public static void  main(String arg[]){
-System.out.print(-0.9%-0.0);
-} 
+public static void main(String as[]){
+for( ; ; )
+ System.out.println("JLC");
+System.out.println("AFTER");
 }
+} 
+
+ /*error: unreachable statement
+System.out.println("AFTER");*/

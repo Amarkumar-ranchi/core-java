@@ -1,7 +1,15 @@
 class Test9{
-public static void main(String as[]){
-float f1=13/3.0F;
-double d1=13/3.0;
-System.out.println(f1==d1);
+public static void main(String[] args) {
+byte by=10;
+switch(by){
+default: System.out.println("DEF");
+case 10: System.out.println("TEN");
+case 128:
+System.out.println("VALUE");
 }
 }
+}
+
+
+ /*error: incompatible types: possible lossy conversion from int to byte
+case 128:*/

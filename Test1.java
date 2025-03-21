@@ -1,6 +1,10 @@
 class Test1{
-public static void main(String as[]){
-float f1=1.f+0101;
-System.out.println(f1);
+public static void main(String[]args){
+Boolean b=false;
+if(b=true){
+System.out.println("IF");
+}else{
+System.out.println("ELSE");
+}
 }
 }
