@@ -1,7 +1,7 @@
-class Test28{
+class Test31{
 public static void main(String as[]){
-int a=99;
-int b=--a;
+int a=10;
+int b=a++ + ++a;
 System.out.println(a);
 System.out.println(b);
 }

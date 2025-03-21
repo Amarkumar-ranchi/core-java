@@ -1,6 +1,6 @@
 class Test24{
-static char val;
-public static void main(String jlc[]){
-System.out.println(val==0);
+public static void main(String arg[]){
+int ab=10;
+System.out.println("Result is"+(ab==ab));
 }
 }

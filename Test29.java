@@ -1,9 +1,8 @@
 class Test29{
 public static void main(String as[]){
-int a,b;
-int c=10,a=20,b=88;
+int a=10;
+int b=a++ + 10;
 System.out.println(a);
 System.out.println(b);
-System.out.println(c);
 }
 }

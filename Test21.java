@@ -1,6 +1,6 @@
 class Test21{
-public static void main(String as[]){
- String email;
-System.out.println(email);
+public static void main(String arg[]){
+String str="10";
+System.out.println(str==str);
 }
 }

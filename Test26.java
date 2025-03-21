@@ -1,10 +1,8 @@
 class Test26{
-public static void main(String jlc[]){
-static int a;
+public static void main(String as[]){
+int a=99;
+int b=--a;
 System.out.println(a);
+System.out.println(b);
 }
 }
-
-
-/* error: illegal start of expression
-static int a;*/

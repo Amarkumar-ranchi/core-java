@@ -1,8 +1,5 @@
 class Test18{
-public static void main(String as[]){
- final int ab;
-ab =12;
-System.out.println(ab+10);
-System.out.println(ab);
+public static void main(String arg[]){
+System.out.println(0.9%0.0==0.9%0.0);
 }
 }

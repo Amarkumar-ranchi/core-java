@@ -1,6 +1,5 @@
 class Test20{
- String email;
-public static void main(String as[]){
-System.out.println(email);
-}
+public static void  main(String arg[]){
+System.out.print(-0.9%-0.0);
+} 
 }

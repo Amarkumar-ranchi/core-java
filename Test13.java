@@ -1,7 +1,6 @@
 class Test13{
-public static void main(String as[]){
-int a=10,b=a;
-System.out.println(a);
-System.out.println(b);
+static String str="null";
+public static void main(String arg[]){
+System.out.println(str==null);
 }
 }

@@ -1,6 +1,11 @@
 class Test19{
-static String name;
-public static void main(String as[]){
-System.out.println(name);
+public static void main(String arg[]){
+String str="10";
+int ab=10;
+System.out.println(str==ab);
 }
 }
+
+
+/* error: incomparable types: String and int
+System.out.println(str==ab);*/
