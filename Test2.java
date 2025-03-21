@@ -1,11 +1,9 @@
 class Test2{
-static boolean arr[]=new
-boolean[1];
-public static void main(String
-args[]){
-System.out.println(arr[0]);
+public static void main(String args[]){
+Student st=new Student();
+st.sname="Sri";
+System.out.println(st.sname);
+} }
+class Student{
+String sname; 
 }
-} 
-
-
-/*output:-false*/

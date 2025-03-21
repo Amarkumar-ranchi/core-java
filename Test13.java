@@ -1,14 +1,11 @@
 class Test13{
-public static void main(String
-args[]){
-int arr[]=new int[][5];
-int len=arr.length;
-System.out.println(len);
+public static void main(String args[]){
+Student st=null;
+System.out.println("Main");
 }
 }
-
- /*error: ']' expected
-int arr[]=new int[][5];
-                    ^
-Test13.java:4: error: ';' expected
-int arr[]=new int[][5];*/
+class Student{
+static{
+System.out.println("St Block");
+}
+} 

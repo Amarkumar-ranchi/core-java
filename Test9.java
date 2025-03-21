@@ -1,9 +1,11 @@
 class Test9{
-static int arr[]=new
-int[]{10,20,30,40};
-public static void main(String
-args[]){
-int length=arr.length;
-System.out.println(arr[--length]);
+static String email=null;
+email="sri@jlc.com";
+public static void main(String args[]){
+System.out.println(email);
 }
-}
+} 
+
+
+/* error: <identifier> expected
+email="sri@jlc.com"*/

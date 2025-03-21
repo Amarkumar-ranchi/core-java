@@ -1,8 +1,10 @@
 class Test30{
-public static void main(String as[]){
-int a=10;
-int b=++a + 10;
-System.out.println(a);
-System.out.println(b);
+static int ab=90;
+static{
+ab=10;
+System.out.println(ab);
+}
+public static void main(String args[]){
+System.out.println(ab);
 }
 }

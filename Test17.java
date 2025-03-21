@@ -1,10 +1,8 @@
 class Test17{
-public static void main(String
-args[]){
-int arr[][][]=new int[][5][5];
-int len=arr.length;
-System.out.println(len);
+static{
+System.out.println("BLOCK1");
+}
+public static void main(String args[]){
+System.out.println("Main");
 }
 } 
-/*output:- error: ']' expected
-int arr[][][]=new int[][5][5];*/

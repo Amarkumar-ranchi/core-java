@@ -1,10 +1,9 @@
 class Test11{
-public static void main(String
-args[]){
-System.out.println(args[0].length())
-;
+public static void main(String args[]){
+System.out.println(email);
 }
+static String email=null;
+static{
+email="sri@jlc.com";
 }
-/*If I am executing the above program
-as
- java Test11 java*/
+} 

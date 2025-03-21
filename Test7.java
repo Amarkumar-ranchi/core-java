@@ -1,7 +1,11 @@
 class Test7{
-public static void main(String
-args[]){
-String arr[]=new String[3];
-System.out.println(arr[0].length());
+public static void main(String args[]){
+System.out.println(new
+Student().name="Sri");
+System.out.println(new
+Student().name);
 }
-} 
+}
+class Student{
+static String name;
+}

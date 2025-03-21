@@ -1,6 +1,9 @@
 class Test21{
-public static void main(String arg[]){
-String str="10";
-System.out.println(str==str);
+public static void main(String args[]){
+Student st=new Student();
+System.out.println(st.fee);
 }
 }
+class Student{
+final float fee;
+} 

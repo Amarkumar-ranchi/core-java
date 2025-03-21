@@ -1,10 +1,9 @@
 class Test20{
-public static void main(String as[]){
-for( ; ; )
- System.out.println("JLC");
-System.out.println("AFTER");
+static final float f1;
+{
+f1=90;
+}
+public static void main(String args[]){
+System.out.println(f1);
 }
 } 
-
- /*error: unreachable statement
-System.out.println("AFTER");*/

@@ -1,12 +1,11 @@
 class Test3{
-public static void main(String
-args[]){
-int arr[]=new int[2];
-int arr2[]=arr;
-arr[0]=90;
-arr[1]=80;
-System.out.println(arr2[0]);
+public static void main(String args[]){
+Student st1=new Student();
+Student st2=new Student();
+st1.sname="Sri";
+System.out.println(st1.sname+"\t"+st2.
+sname);
+} }
+class Student{
+static String sname; 
 }
-}
-
-/*output:- 90*/

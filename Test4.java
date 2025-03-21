@@ -1,8 +1,9 @@
 class Test4{
-static char ch;
-public static void main(String
-args[]){
-int arr[]=new int[ch];
-System.out.println(arr[0]);
-}
+public static void main(String args[]){
+Student st=null;
+st.name="Nivas";
+System.out.println(st.name);
+} }
+class Student{
+String name;
 }

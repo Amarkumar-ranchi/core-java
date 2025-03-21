@@ -1,12 +1,15 @@
 class Test23{
-public static void main(String arg[]){
-int ab=10;
-System.out.println("Result is"+ab==ab);
+public static void main(String args[]){
+Student st=new Student();
+System.out.println(st.fee);
 }
 }
-
-
-
-
-/*error: incomparable types: String and int
-System.out.println("Result is"+ab==ab);*/
+class Student{
+final float fee;
+{
+fee=1000;
+}
+{
+fee=2000;
+}
+} 

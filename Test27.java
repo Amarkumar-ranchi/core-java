@@ -1,8 +1,12 @@
 class Test27{
-public static void main(String as[]){
-int a=99;
-int b=-(-a);
-System.out.println(a);
-System.out.println(b);
+public static void main(String args[]){
+{
+int ab=90;
+ {
+ System.out.println(ab);
+ }
 }
+String ab="AB";
+System.out.println(ab);
 }
+} 

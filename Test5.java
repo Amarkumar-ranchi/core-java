@@ -1,8 +1,10 @@
 class Test5{
-public static void main(String
-args[]){
-int x=257;
-int arr[]=new int[(byte)x];
-System.out.println(arr.length);
+public static void main(String args[]){
+Student st=null;
+st.name="Nivas";
+System.out.println(st.name);
 }
 }
+class Student{
+static String name;
+} 

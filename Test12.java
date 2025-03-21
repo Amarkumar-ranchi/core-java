@@ -1,11 +1,11 @@
 class Test12{
-public static void main(String
-args[]){
-for(int i=0;i<args.length;i++){
-System.out.print(args[0]);
+public static void main(String args[]){
+System.out.println(email);
+new Test();
+System.out.println(email);
+}
+static String email=null;
+{
+email="sri@jlc.com";
 }
 }
-}
-/*If I am executing the above program
-as
-java Test12 10 20 30 40*/

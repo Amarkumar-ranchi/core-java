@@ -1,6 +1,9 @@
 class Test24{
-public static void main(String arg[]){
-int ab=10;
-System.out.println("Result is"+(ab==ab));
+public static void main(String args[]){
+int ab=90;
+System.out.println(ab);
+{
+System.out.println(ab);
+}
 }
 }

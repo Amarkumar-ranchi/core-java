@@ -1,9 +1,7 @@
 class Test8{
-public static void main(String
-args[]){
-int arr[]=new int[1];
-arr[0]=123;
-arr=new int[4];
-System.out.println(arr[0]);
+public static void main(String args[]){
+String email=null;
+email="sri@jlc.com";
+System.out.println(email);
 }
-}
+} 
